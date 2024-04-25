@@ -32,7 +32,7 @@ const App = () => {
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3">ABDULARZAQ SODIQ</h6>
-        <p>sodiq © All CopyRights Reserved 2022</p>
+        <p>sodiq © All CopyRights Reserved 2024</p>
       </footer>
     </div>
   );
