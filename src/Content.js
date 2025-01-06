@@ -18,9 +18,10 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img5.png";
-import project3 from "./assets/images/projects/img3.png";
+import project1 from "./assets/images/invas.jpg";
+import project2 from "./assets/images/aida.jpg";
+import project3 from "./assets/images/nigsims.jpg";
+import project4 from "./assets/images/theelector.jpg";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -71,11 +72,11 @@ export const content = {
     image: Hero_person,
     hero_content: [
       {
-        count: "2+",
+        count: "3+",
         text: "Years of Experinse in Web development",
       },
       {
-        count: "2+",
+        count: "3+",
         text: "Projects Worked in my career",
       },
     ],
@@ -86,58 +87,58 @@ export const content = {
     skills_content: [
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "",
         logo: reactjs,
       },
-      {
-        name: "Figma",
-        para: "Implementation of figma design",
-        logo: figma,
-      },
+      // {
+      //   name: "Figma",
+      //   para: " design",
+      //   logo: figma,
+      // },
       // {
       //   name: "Node js",
-      //   para: "Consume node.js api's",
+      //   para: "
       //   logo: nodejs,
       // },
       {
         name: "HTML",
-        para: "Lorem ipsum text  dummy",
+        para: "",
         logo: html,
       },
       
       {
         name: "CSS",
-        para: "Lorem ipsum text  dummy",
+        para: "",
         logo: css,
       },
       {
         name: "TailwindCSS",
-        para: "Lorem ipsum text  dummy",
+        para: "",
         logo: tailwind,
       },
       {
         name: "JavaScript",
-        para: "Lorem ipsum text  dummy",
+        para: "",
         logo: js,
       },
       {
         name: "Vue js",
-        para: "Lorem ipsum text  dummy",
+        para: "",
         logo: vue,
       },
       {
         name: "Redux js",
-        para: "Lorem ipsum text  dummy",
+        para: "",
         logo: redux,
       },
       {
         name: "Git",
-        para: "Lorem ipsum text  dummy",
+        para: "",
         logo: git,
       },
       {
         name: "Bootstrap",
-        para: "Lorem ipsum text  dummy",
+        para: "",
         logo: bootstrap,
       },
     ],
@@ -175,19 +176,34 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "The Elector",
+        title: "Invas",
         image: project1,
-        link: "http://theelector.com.ng/",
+        link: "https://www.invas.ng/",
       },
       {
-        title: "SupremeData",
+        title: "Aida",
         image: project2,
-        link: "https://supreme-dc.vercel.app/",
+        link: "https://aida-decmc6ut6-sodiq247s-projects.vercel.app/",
       },
       {
-        title: "Creative Website",
+        title: "Nigsims",
         image: project3,
+        link: "https://nigsims.ng/",
       },
+      {
+        title: "The Elector",
+        image: project4,
+        link: "http://theelector.ng/",
+      },
+      // {
+      //   title: "SupremeData",
+      //   image: project2,
+      //   link: "https://supreme-dc.vercel.app/",
+      // },
+      // {
+      //   title: "Creative Website",
+      //   image: project3,
+      // },
     ],
   },
   Testimonials: {
@@ -242,11 +258,11 @@ export const content = {
         icon: MdCall,
         link: "https://wa.me/message/ZSYBRQ5XRO7JN1",
       },
-      {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
-      },
+      // {
+      //   text: "codeaprogram",
+      //   icon: BsInstagram,
+      //   link: "https://www.instagram.com/codeaprogram/",
+      // },
     ],
   },
   Footer: {
