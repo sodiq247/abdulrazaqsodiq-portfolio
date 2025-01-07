@@ -22,7 +22,7 @@ import project1 from "./assets/images/invas.jpg";
 import project2 from "./assets/images/aida.jpg";
 import project3 from "./assets/images/nigsims.jpg";
 import project4 from "./assets/images/theelector.jpg";
-import person_project from "./assets/images/projects/person.png";
+import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
