@@ -12,15 +12,15 @@ const Hero = () => {
           data-aos-delay="1200"
           className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10"
         >
-          <h1 className="rotate-90 hidden md:flex md:absolute top-[50%] right-[-15%] text-[#EAF2FA]">
+          <h1 className="rotate-90 hidden md:block md:absolute top-[40%] right-[-15%] text-[#EAF2FA]">
             {hero.firstName}{" "}
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
         </div>
 
         {/* first col */}
-        <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          <h2>{hero.title}</h2>
+        <div className="pb-16 px-6 pt-[50px]" data-aos="fade-down">
+          <h2 className="text-[2rem] mt-[20%] md:text-[3rem]">{hero.title}</h2>
           <br />
           <div className="flex justify-end">
             <button className="btn">{hero.btnText}</button>

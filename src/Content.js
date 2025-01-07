@@ -22,6 +22,7 @@ import project1 from "./assets/images/invas.jpg";
 import project2 from "./assets/images/aida.jpg";
 import project3 from "./assets/images/nigsims.jpg";
 import project4 from "./assets/images/theelector.jpg";
+import project5 from "./assets/images/interra.jpg";
 import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -76,7 +77,7 @@ export const content = {
         text: "Years of Experinse in Web development",
       },
       {
-        count: "3+",
+        count: "10+",
         text: "Projects Worked in my career",
       },
     ],
@@ -180,26 +181,28 @@ export const content = {
         image: project1,
         link: "https://www.invas.ng/",
       },
+      
+      {
+        title: "Interranetworks Website: ongoing project...",
+        image: project5,
+        link: "http://test.interranetworks.com/",
+      },
       {
         title: "Aida",
         image: project2,
         link: "https://aida-decmc6ut6-sodiq247s-projects.vercel.app/",
       },
       {
-        title: "Nigsims",
-        image: project3,
-        link: "https://nigsims.ng/",
-      },
-      {
         title: "The Elector",
         image: project4,
         link: "http://theelector.ng/",
       },
-      // {
-      //   title: "SupremeData",
-      //   image: project2,
-      //   link: "https://supreme-dc.vercel.app/",
-      // },
+      {
+        title: "Nigsims",
+        image: project3,
+        link: "https://nigsims.ng/",
+      },
+      
       // {
       //   title: "Creative Website",
       //   image: project3,
