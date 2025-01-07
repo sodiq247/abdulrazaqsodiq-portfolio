@@ -5,8 +5,8 @@ const Hero = () => {
   const { hero } = content;
 
   return (
-    <section id="home" className="overflow-hidden">
-      <div className=" relative flex md:flex-row flex-col-reverse md:items-end justify-left items-center ml-[10%]" >
+    <section id="home" className="overflow-hidden min-h-fit">
+      <div className="min-h-fit relative flex md:flex-row flex-col-reverse md:items-end justify-left items-center ml-[10%]" >
         <div
           data-aos="slide-left"
           data-aos-delay="1200"
