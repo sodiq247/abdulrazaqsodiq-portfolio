@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
+    "preinstall": "rm -rf node_modules", 
+    "postinstall": "chmod +x node_modules/.bin/vite", 
     "build": "vite build",
-    "preview": "vite preview",
-    "postinstall": "chmod +x ./node_modules/.bin/vite"
+    "preview": "vite preview"
   },
   "engines": {
   "node": ">=18"
