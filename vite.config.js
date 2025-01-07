@@ -9,6 +9,6 @@ export default defineConfig({
     emptyOutDir: true, // Clear the dist folder before building
   },
   server: {
-    port: 3000, // Optional: Specify a dev server port
+    port: 3001, // Optional: Specify a dev server port
   },
 })
