@@ -20,7 +20,7 @@ const Hero = () => {
 
         {/* first col */}
         <div className="pb-16 px-6" data-aos="fade-down">
-          <h2 className="text-[2rem] mt-[20%] md:text-[3rem] ">{hero.title}</h2>
+          <h2 className=" mt-[40%]  ">{hero.title}</h2>
           <br />
           <div className="flex justify-end">
             <button className="btn">{hero.btnText}</button>
