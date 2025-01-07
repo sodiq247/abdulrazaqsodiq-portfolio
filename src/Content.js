@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+// import Hero_person from "./assets/images/Hero/person.png";
 
 import figma from "./assets/images/Skills/figma.png";
 import reactjs from "./assets/images/Skills/react.png";
@@ -22,14 +22,14 @@ import project1 from "./assets/images/invas.jpg";
 import project2 from "./assets/images/aida.jpg";
 import project3 from "./assets/images/nigsims.jpg";
 import project4 from "./assets/images/theelector.jpg";
-import person_project from "./assets/images/projects/person.png";
+// import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
+// import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
